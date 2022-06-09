@@ -7,5 +7,5 @@
 6. Push los cambios a GitHub desde la terminal
    1. `git add .`
    2. `git commit -m ["poner mensaje clave y corto"]
-   3. `git push`
+   3. `git push`  
 7. Cerrar terminal con `exit`
