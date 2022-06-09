@@ -1,0 +1,458 @@
+.btnInicio {
+  max-width: 180px;
+}
+
+.popupBienvenido,
+li {
+  font-family: Montserrat;
+  font-size: 1.3rem;
+}
+
+.logoAulab {
+  display: block;
+  margin: auto;
+}
+
+.fas.fa-plus,
+.fas.fa-minus {
+  padding-top: 3px !important;
+  color: #16aebb;
+}
+
+.fas.fa-caret-right,
+.fas.fa-caret-up {
+  padding-top: 2px !important;
+  color: #16aebb;
+}
+
+.videoHotspot {
+  width: 500px !important;
+  height: 300px !important;
+  display: block;
+  margin: 0 auto !important;
+}
+
+.h5pHotspot {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.e-hotspot--link {
+  text-decoration: none !important;
+}
+
+.iconHotspot {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 70px;
+  right: 60px;
+  opacity: 100;
+  z-index: 1000;
+}
+
+@media (min-width: 500px) {
+  .content {
+    width: 43%;
+  }
+  .iconHotspot {
+    margin: -20px -20px -30px -20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    width: 43%;
+  }
+  .iconHotspot {
+    margin: -20px -20px -30px -20px;
+  }
+}
+
+html.h5p-iframe,
+html.h5p-iframe > body {
+  font-family: Montserrat !important;
+}
+
+.bonusText {
+  color: white;
+}
+
+code {
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.aContrast {
+  color: white !important;
+  padding-bottom: 2px;
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+.aContrast:hover {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #d84159;
+  color: #d84159 !important;
+  text-decoration: none;
+}
+
+.aColor {
+  color: white !important;
+  text-decoration: none;
+}
+
+.aColor:hover {
+  color: #ffd734 !important;
+  text-decoration: none;
+}
+
+/*input[type=radio] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background: white;
+}
+
+
+input[type=radio]:after {
+    content: "";
+    opacity: 0;
+    display: block;
+    left: 3px;
+    top: 3px;
+    position: absolute;
+    width: 17px;
+    height: 17.7px;
+    border-radius: 50%;
+    background: black;
+}
+
+input[type=radio]:focus {
+    outline: 3px solid #ffbf47;
+    outline-offset: 0;
+}
+
+input[type=radio]:checked {
+    border: none;
+}
+
+input:focus:not([type="button"]):not([type="submit"])  {
+    color: #000000;
+    border-style: solid;
+    border-width: 3px 3px 3px 3px;
+    border-color: yellow;
+}*/
+
+input[type="radio"] {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  position: relative !important;
+  width: 25px !important;
+  height: 25px !important;
+  border: 1px solid black !important;
+  background: white !important;
+}
+
+input[type="radio"]:checked {
+  border-color: #d84159 !important;
+  border-style: solid !important;
+  border-width: 4px !important;
+}
+
+input[type="radio"]:focus {
+  border-color: #ffd734 !important;
+  border-style: solid !important;
+  border-width: 4px !important;
+}
+
+input[type="radio"]:after {
+  width: 17px !important;
+  height: 17.7px !important;
+  border-radius: 50% !important;
+  background: black !important;
+  border-width: 4px !important;
+  border-color: #d84159 !important;
+}
+
+input:focus:not([type="button"]):not([type="submit"]) {
+  color: #000000 !important;
+  border-style: solid !important;
+  border-width: 4px !important;
+  border-color: var(--e-global-color-primary) !important;
+}
+
+input[type="checkbox"]:after {
+  content: "";
+  opacity: 0;
+  display: block !important;
+  left: 7px !important;
+  top: 3px !important;
+  position: absolute !important;
+  width: 8px !important;
+  height: 15px !important;
+  border: 4px solid var(--form--color-text) !important;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  transform: rotate(45deg) !important;
+}
+
+.elementor-accordion-icon-closed,
+.elementor-accordion-icon-opened {
+  margin-top: -3px !important;
+}
+
+.tooltip {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+}
+
+.tooltip .top {
+  text-align: center;
+  min-width: 200px;
+  top: -12px;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  padding: 10px 20px;
+  color: #444444;
+  background-color: #eeeeee;
+  font-weight: normal;
+  font-size: 13px;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 99999999;
+  box-sizing: border-box;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.tooltip:hover .top {
+  display: block;
+}
+
+.tooltip .top i {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -12px;
+  width: 24px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.tooltip .top i::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background-color: #eeeeee;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.title-icon {
+  color: white;
+  font-size: 1.5em;
+}
+
+.title-icon:hover {
+  color: #d84159;
+}
+
+.notas {
+  font-size: 1em !important;
+}
+
+.yellowText {
+  color: #ffd734;
+}
+
+/* # NIVEL SECUNDARIA */
+
+/* ## VIRUS */
+
+.botonesTituloSecundaria {
+  margin-bottom: 0px !important;
+}
+
+/* ## PROYECTO INTEGRADOR */
+
+.listaEdicion {
+  line-height: 27.2px;
+  font-size: 1rem;
+  color: white !important;
+}
+
+.listaEdicion > a {
+  font-size: 1rem;
+  color: white !important;
+}
+
+.textoNotasProyectoIntegrador {
+  color: white;
+  font-size: 0.8em;
+  line-height: 50px !important;
+}
+
+.listaProyectoIntegrador {
+  color: white;
+  font-size: 1em;
+  line-height: 30px;
+}
+
+/* GLOBAL */
+
+.whiteText {
+  color: white;
+  font-size: 1em;
+}
+
+/* NIVEL PRIMARIA */
+/* MENU SIDEBAR */
+
+.hideIconArrowDown {
+  display: none !important;
+}
+
+.hoverIconArrowDown:hover + .hideIconArrowDown {
+  display: inline !important;
+  color: var(--e-global-color-primary);
+  font-size: 15px !important;
+  margin-left: 5px !important;
+}
+
+.hideIconImage {
+  display: none !important;
+}
+
+.hoverIconImage:hover + .hideIconImage {
+  display: inline !important;
+  color: var(--e-global-color-primary);
+  font-size: 15px !important;
+  margin-left: 5px !important;
+}
+
+.hideIconMusic {
+  display: none !important;
+}
+
+.hoverIconMusic:hover + .hideIconMusic {
+  display: inline !important;
+  color: var(--e-global-color-primary);
+  font-size: 15px !important;
+  margin-left: 5px !important;
+}
+
+.hideIconFlask {
+  display: none !important;
+}
+
+.hoverIconFlask:hover + .hideIconFlask {
+  display: inline !important;
+  color: var(--e-global-color-primary);
+  font-size: 15px !important;
+  margin-left: 5px !important;
+}
+
+.hideIconRedo {
+  display: none !important;
+}
+
+.hoverIconRedo:hover + .hideIconRedo {
+  display: inline !important;
+  color: var(--e-global-color-primary);
+  font-size: 15px !important;
+  margin-left: 5px !important;
+}
+
+.divSquare {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.htmlSquare {
+  width: 130px !important;
+  height: 130px !important;
+}
+
+.cancion {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 1rem;
+}
+
+.aulaPrimariaName {
+  color: #ffd734;
+  font-size: 3rem;
+  line-height: normal;
+}
+
+@media (max-width: 881px) {
+  .aulaPrimariaName {
+    color: #ffd734;
+    font-size: 2rem;
+  }
+}
+
+ul,
+ol {
+  line-height: 1.7;
+  margin-left: -20px;
+}
+
+.stickyMenu {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 40px;
+}
+
+.menuPrimaria:hover {
+  color: var(--e-global-color-primary);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.eicon-close {
+  padding: 10px;
+}
+
+.parrafoInstructivo {
+  font-size: 1rem;
+}
+
+.fa-chalkboard-teacher {
+  font-size: 1em;
+}
+
+.tituloMuLab {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
