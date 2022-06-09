@@ -2,11 +2,11 @@
   max-width: 180px;
 }
 
-.popupBienvenido,
+/* .popupBienvenido,
 li {
   font-family: Montserrat;
   font-size: 1.3rem;
-}
+} */
 
 .logoAulab {
   display: block;
@@ -31,6 +31,8 @@ li {
   display: block;
   margin: 0 auto !important;
 }
+
+/*_________________ ↓ POP-UP HOTSPOT ↓ _________________*/
 
 .h5pHotspot {
   height: 100% !important;
@@ -71,20 +73,7 @@ li {
   }
 }
 
-html.h5p-iframe,
-html.h5p-iframe > body {
-  font-family: Montserrat !important;
-}
-
-.bonusText {
-  color: white;
-}
-
-code {
-  background-color: black;
-  padding: 5px;
-  border-radius: 5px;
-}
+/*_________________ ↑ POP-UP HOTSPOT ↑ _________________*/
 
 .aContrast {
   color: white !important;
@@ -100,7 +89,7 @@ code {
   text-decoration: none;
 }
 
-.aColor {
+/* .aColor {
   color: white !important;
   text-decoration: none;
 }
@@ -108,7 +97,7 @@ code {
 .aColor:hover {
   color: #ffd734 !important;
   text-decoration: none;
-}
+} */
 
 /*input[type=radio] {
     -webkit-appearance: none;
@@ -204,9 +193,21 @@ input[type="checkbox"]:after {
   transform: rotate(45deg) !important;
 }
 
-.elementor-accordion-icon-closed,
-.elementor-accordion-icon-opened {
-  margin-top: -3px !important;
+/*_________________ ↓ NIVEL SECUNDARIA ↓ _________________*/
+
+.bonusText {
+  color: white;
+}
+
+/*_________________ ↓ TITLE ICONS ↓ _________________*/
+
+.title-icon {
+  color: white;
+  font-size: 1.5em;
+}
+
+.title-icon:hover {
+  color: #d84159;
 }
 
 .tooltip {
@@ -259,43 +260,27 @@ input[type="checkbox"]:after {
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
 }
 
-.title-icon {
+/*_________________ ↑ TITLE ICONS ↑ _________________*/
+
+/*_________________ ↓ SET 1, 2, 3, 4 ↓ _________________*/
+
+mark {
+  border-top: 2px solid red;
+  background-color: transparent;
   color: white;
-  font-size: 1.5em;
 }
 
-.title-icon:hover {
-  color: #d84159;
-}
+/*_________________ ↑ SET 1, 2, 3, 4 ↑ _________________*/
 
-.notas {
-  font-size: 1em !important;
-}
-
-.yellowText {
-  color: #ffd734;
-}
-
-/* # NIVEL SECUNDARIA */
-
-/* ## VIRUS */
+/*_________________ ↓ VIRUS ↓ _________________*/
 
 .botonesTituloSecundaria {
   margin-bottom: 0px !important;
 }
 
-/* ## PROYECTO INTEGRADOR */
+/*_________________ ↑ VIRUS ↑ _________________*/
 
-.listaEdicion {
-  line-height: 27.2px;
-  font-size: 1rem;
-  color: white !important;
-}
-
-.listaEdicion > a {
-  font-size: 1rem;
-  color: white !important;
-}
+/*_________________ ↓ PROYECTO INTEGRADOR ↓ _________________*/
 
 .textoNotasProyectoIntegrador {
   color: white;
@@ -309,15 +294,40 @@ input[type="checkbox"]:after {
   line-height: 30px;
 }
 
-/* GLOBAL */
-
-.whiteText {
-  color: white;
-  font-size: 1em;
+.listaEdicion {
+  line-height: 27.2px;
+  font-size: 1rem;
+  color: white !important;
 }
 
-/* NIVEL PRIMARIA */
-/* MENU SIDEBAR */
+.listaEdicion > a {
+  font-size: 1rem;
+  color: white !important;
+}
+
+/*_________________ ↑ PROYECTO INTEGRADOR ↑ _________________*/
+
+/*_________________ ↑ NIVEL SECUNDARIA ↑ _________________*/
+
+/*·····························································*/
+
+/*_________________ ↓ NIVEL PRIMARIA ↓ _________________*/
+
+.notas {
+  font-size: 1em !important;
+}
+
+/*_________________ ↓ MENU SIDEBAR ↓ _________________*/
+
+.stickyMenu {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 40px;
+}
+
+.menuPrimaria:hover {
+  color: var(--e-global-color-primary);
+}
 
 .hideIconArrowDown {
   display: none !important;
@@ -374,6 +384,21 @@ input[type="checkbox"]:after {
   margin-left: 5px !important;
 }
 
+.aulaPrimariaName {
+  color: #ffd734;
+  font-size: 3rem;
+  line-height: normal;
+}
+
+@media (max-width: 881px) {
+  .aulaPrimariaName {
+    color: #ffd734;
+    font-size: 2rem;
+  }
+}
+
+/*_________________ ↑ MENU SIDEBAR ↑ _________________*/
+
 .divSquare {
   width: 150px !important;
   height: 150px !important;
@@ -391,17 +416,29 @@ input[type="checkbox"]:after {
   font-size: 1rem;
 }
 
-.aulaPrimariaName {
-  color: #ffd734;
-  font-size: 3rem;
-  line-height: normal;
+/*_________________ ↓ POP-UP INSTRUCTIVO ↓ _________________*/
+
+.parrafoInstructivo {
+  font-size: 1rem;
 }
 
-@media (max-width: 881px) {
-  .aulaPrimariaName {
-    color: #ffd734;
-    font-size: 2rem;
-  }
+/*_________________ ↑ POP-UP INSTRUCTIVO ↑ _________________*/
+
+.fa-chalkboard-teacher {
+  font-size: 1em;
+}
+
+.tituloMuLab {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/*_________________ ↓ GLOBAL ↓ _________________*/
+
+code {
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 ul,
@@ -410,15 +447,30 @@ ol {
   margin-left: -20px;
 }
 
-.stickyMenu {
-  position: sticky;
-  position: -webkit-sticky;
-  top: 40px;
+html.h5p-iframe,
+html.h5p-iframe > body {
+  font-family: Montserrat !important;
 }
 
-.menuPrimaria:hover {
-  color: var(--e-global-color-primary);
+.whiteText {
+  color: white;
+  font-size: 1em;
 }
+
+.eicon-close {
+  padding: 10px;
+}
+
+.elementor-accordion-icon-closed,
+.elementor-accordion-icon-opened {
+  margin-top: -3px !important;
+}
+
+.yellowText {
+  color: #ffd734;
+}
+
+/*_________________ ↓ SCROLLBAR ↓ _________________*/
 
 /* width */
 ::-webkit-scrollbar {
@@ -440,19 +492,6 @@ ol {
   background: #555;
 }
 
-.eicon-close {
-  padding: 10px;
-}
+/*_________________ ↑ SCROLLBAR ↑ _________________*/
 
-.parrafoInstructivo {
-  font-size: 1rem;
-}
-
-.fa-chalkboard-teacher {
-  font-size: 1em;
-}
-
-.tituloMuLab {
-  font-size: 1.2rem;
-  font-weight: bold;
-}
+/*_________________ ↑ GLOBAL ↑ _________________*/
