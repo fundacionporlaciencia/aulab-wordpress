@@ -205,6 +205,15 @@ mark {
 
 /*_________________ ↑ VIRUS ↑ _________________*/
 
+/*_________________ ↓ VARIANTES ↓ _________________*/
+
+td {
+  line-height: 25px;
+}
+
+
+/*_________________ ↑ VARIANTES ↑ _________________*/
+
 /*_________________ ↓ PROYECTO INTEGRADOR ↓ _________________*/
 
 .textoNotasProyectoIntegrador {
@@ -240,6 +249,7 @@ mark {
 
 .notas {
   font-size: 1em !important;
+  font-family: Montserrat, sans-serif;
 }
 
 /*_________________ ↓ MENU SIDEBAR ↓ _________________*/
@@ -364,6 +374,7 @@ code {
   background-color: black;
   padding: 5px;
   border-radius: 5px;
+  line-height: 35px;
 }
 
 ul,
@@ -572,7 +583,7 @@ input[type="radio"]:hover {
 
 /* REVISE CODE WHETHER IT'S NEEDED OR NOT */
 
-.iconHotspot {
+/* .iconHotspot {
   display: inline-block;
   width: 70px;
   height: 70px;
@@ -604,4 +615,4 @@ input[type="radio"]:hover {
 
 table {
   width: 80%;
-}
+} */
