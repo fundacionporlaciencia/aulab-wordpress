@@ -569,3 +569,39 @@ input[type="radio"]:hover {
 /*_________________ ↑ SCROLLBAR ↑ _________________*/
 
 /*_________________ ↑ GLOBAL ↑ _________________*/
+
+/* REVISE CODE WHETHER IT'S NEEDED OR NOT */
+
+.iconHotspot {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 70px;
+  right: 60px;
+  opacity: 100;
+  z-index: 1000;
+}
+
+@media (min-width: 500px) {
+  .content {
+    width: 43%;
+  }
+  .iconHotspot {
+    margin: -20px -20px -30px -20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    width: 43%;
+  }
+  .iconHotspot {
+    margin: -20px -20px -30px -20px;
+  }
+}
+
+table {
+  width: 80%;
+}
