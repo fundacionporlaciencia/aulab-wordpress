@@ -53,6 +53,7 @@ li {
   right: 60px;
   opacity: 100;
   z-index: 1000;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 @media (min-width: 500px) {
@@ -117,7 +118,17 @@ li {
   color: white;
 }
 
+.tituloEjercicio {
+  font-size: 1.5em;
+  color: #ffd734;
+}
+
 /*_________________ ↓ TITLE ICONS ↓ _________________*/
+
+a > .fa-download-disabled {
+  color: grey!important;
+  cursor: default;
+}
 
 .title-icon {
   color: white;
@@ -188,6 +199,20 @@ mark {
   color: white;
 }
 
+.tituloEjercicio {
+  font-size: 1.5em;
+  color: #ffd734;
+}
+
+.itemInvestigar {
+  display: inline-block;
+  background-color: #d84159;
+  border-radius: 10px;
+  padding: 6px 10px;
+  margin: 5px;
+  font-size: 1.1rem;
+}
+
 /*_________________ ↑ SET 1, 2, 3, 4 ↑ _________________*/
 
 /*_________________ ↓ VIRUS ↓ _________________*/
@@ -210,7 +235,6 @@ mark {
 td {
   line-height: 25px;
 }
-
 
 /*_________________ ↑ VARIANTES ↑ _________________*/
 
@@ -369,7 +393,6 @@ td {
 }
 
 /*_________________ ↓ GLOBAL ↓ _________________*/
-
 code {
   background-color: black;
   padding: 5px;
@@ -386,6 +409,10 @@ ol {
 html.h5p-iframe,
 html.h5p-iframe > body {
   font-family: Montserrat !important;
+}
+
+.contanos {
+  color: black;
 }
 
 .tituloH5P {
