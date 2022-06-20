@@ -126,7 +126,7 @@ li {
 /*_________________ ↓ TITLE ICONS ↓ _________________*/
 
 a > .fa-download-disabled {
-  color: grey!important;
+  color: grey !important;
   cursor: default;
 }
 
@@ -400,15 +400,19 @@ code {
   line-height: 35px;
 }
 
+html.h5p-iframe,
+html.h5p-iframe > body {
+  font-family: Montserrat !important;
+}
+
 ul,
 ol {
   line-height: 1.7;
   margin-left: -20px;
 }
 
-html.h5p-iframe,
-html.h5p-iframe > body {
-  font-family: Montserrat !important;
+.noWrapTable {
+  white-space: nowrap;
 }
 
 .contanos {
@@ -654,3 +658,32 @@ table {
 
 
 */
+/* 
+table,
+td,
+tr,
+th {
+  background-color: #ffd734;
+  border-radius: 15px;
+  border: none !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+
+@media only screen and (max-width: 440px) {
+  table,
+  td,
+  tr,
+  th {
+    background-color: #ffd734;
+    border-radius: 15px;
+    border: none !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    font-size: 0.7rem;
+  }
+}
+
+code {
+  color: white;
+} */
