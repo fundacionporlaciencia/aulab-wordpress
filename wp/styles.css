@@ -409,6 +409,11 @@ ul,
 ol {
   line-height: 1.7;
   margin-left: -20px;
+  font-family: Montserrat;
+}
+
+th {
+  white-space: nowrap;
 }
 
 .noWrapTable {
