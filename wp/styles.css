@@ -123,6 +123,11 @@ li {
   color: #ffd734;
 }
 
+.subtitulo {
+  font-size: 2.5rem;
+  line-height: 0;
+}
+
 /*_________________ ↓ TITLE ICONS ↓ _________________*/
 
 a > .fa-download-disabled {
