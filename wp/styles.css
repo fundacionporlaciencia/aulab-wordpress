@@ -395,6 +395,12 @@ td {
 .tituloFicha {
   font-size: 1.2rem;
   font-weight: bold;
+  color: #FFD734;
+  line-height: 0.5;
+}
+
+.categoriaFicha {
+  margin-bottom: 35px;
 }
 
 /*_________________ ↓ GLOBAL ↓ _________________*/
