@@ -420,7 +420,7 @@ ul,
 ol {
   line-height: 1.7;
   margin-left: -20px;
-  font-family: Montserrat;
+  font-family: Montserrat, Sans-Serif;
 }
 
 th {
@@ -429,6 +429,19 @@ th {
 
 .noWrapTable {
   white-space: nowrap;
+}
+
+.align-top { /*table*/
+  vertical-align: top;
+}
+
+.widthTableAula3 {
+  width: 800px!important;
+  margin-bottom: 5px;
+}
+
+.widthTableAula4 {
+  width: 1000px;
 }
 
 .contanos {
@@ -609,6 +622,7 @@ input[type="radio"]:hover {
   width: 10px;
   height: 10px;
 }
+  
 
 /* Track */
 ::-webkit-scrollbar-track {
@@ -704,3 +718,8 @@ th {
 code {
   color: white;
 } */
+
+
+
+
+
