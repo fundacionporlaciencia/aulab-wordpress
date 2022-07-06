@@ -337,6 +337,28 @@ td {
   margin-left: 5px !important;
 }
 
+.hideIconMatematica {
+  display: none !important;
+}
+
+.hoverIconMatematica:hover + .hideIconMatematica {
+  display: inline !important;
+  color: var(--e-global-color-primary);
+  font-size: 15px !important;
+  margin-left: 5px !important;
+}
+
+.hideIconArtes {
+  display: none !important;
+}
+
+.hoverIconArtes:hover + .hideIconArtes {
+  display: inline !important;
+  color: var(--e-global-color-primary);
+  font-size: 15px !important;
+  margin-left: 5px !important;
+}
+
 .hideIconRedo {
   display: none !important;
 }
