@@ -326,11 +326,11 @@ td {
   margin-left: 5px !important;
 }
 
-.hideIconFlask {
+.hideIconExperimentamos {
   display: none !important;
 }
 
-.hoverIconFlask:hover + .hideIconFlask {
+.hoverIconExperimentamos:hover + .hideIconExperimentamos {
   display: inline !important;
   color: var(--e-global-color-primary);
   font-size: 15px !important;
@@ -415,6 +415,12 @@ td {
 }
 
 .tituloFicha {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #FFD734;
+}
+
+.aulasTituloFicha {
   font-size: 1.2rem;
   font-weight: bold;
   color: #FFD734;
