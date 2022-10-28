@@ -107,6 +107,15 @@ li {
   color: #ffd734 !important;
   text-decoration: none;
 } */
+/*_________________ ↓ LABORATORIO CREATIVO ↓ _________________*/
+
+.lab-texto-negro {
+  color: black;
+}
+
+/*_________________ ↑ LABORATORIO CREATIVO ↑ _________________*/
+
+
 
 /*_________________ ↓ NIVEL SECUNDARIA ↓ _________________*/
 
@@ -269,6 +278,22 @@ td {
 }
 
 /*_________________ ↑ PROYECTO INTEGRADOR ↑ _________________*/
+
+/*_________________ ↓ ROLANDO ↓ _________________*/
+
+.olEnElEstudio {
+  line-height: 1em;
+  font-family: Montserrat, Sans-Serif;
+  font-weight: 500!important;
+  padding-left: 3em;
+  
+}
+
+.subTituloEnElEstudio {
+  font-weight: 400;
+}
+
+/*_________________ ↑ ROLANDO ↑ _________________*/
 
 /*_________________ ↑ NIVEL SECUNDARIA ↑ _________________*/
 
